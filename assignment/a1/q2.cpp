@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 class ElectricityBill {
 private:
     int consumedUnits;
@@ -50,8 +49,7 @@ int main() {
     int numberOfCustomers;
     cout << "Enter the number of customers: ";
     cin >> numberOfCustomers;
-    cin.ignore();  // Clear newline character from the input stream
-
+    cin.ignore();
     ElectricityBill *bills = new ElectricityBill[numberOfCustomers];
 
     for (int i = 0; i < numberOfCustomers; i++) {
@@ -64,7 +62,7 @@ int main() {
 
         cout << "Enter consumed units for customer " << i + 1 << ": ";
         cin >> units;
-        cin.ignore();  // Clear newline character from the input stream
+        cin.ignore();  
         bills[i].setConsumedUnits(units);
     }
 
