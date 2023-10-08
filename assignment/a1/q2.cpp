@@ -39,7 +39,8 @@ public:
 
         if (totalBill > 300) {
             return static_cast<int>(totalBill + 0.15 * totalBill);
-        } else {
+        } 
+        else {
             return static_cast<int>(totalBill);
         }
     }
