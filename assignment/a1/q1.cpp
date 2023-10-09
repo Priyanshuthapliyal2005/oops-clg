@@ -66,7 +66,7 @@ int main() {
         cin >> s;
         e[i].setsalary(s);
     }
-
+    
     for (int i = 0; i < n; i++) {
         cout << "Employee " << i + 1 << " - ID: "
          << e[i].getid() << ", Name: " << e[i].getname() << ", Salary: "
