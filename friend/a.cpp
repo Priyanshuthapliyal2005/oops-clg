@@ -18,7 +18,6 @@ public:
     void setPrivateData(int value) {
         privateData = value;
     }
-
 };
 
 int main() {
