@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    string filePath = " D:/oops clg/assignment/a2/q1.cpp ";
+    string filePath = " D:/oops clg/assignment/a2/search.txt";
     string searchWord = "main";
 
     ifstream file(filePath);

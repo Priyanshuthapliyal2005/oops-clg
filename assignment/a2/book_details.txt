@@ -1,0 +1,8 @@
+Book ID: 1
+Title: The King Kohli
+Price: 999.000000
+
+Book ID: 2
+Title: The Hitman
+Price: 999.000000
+
