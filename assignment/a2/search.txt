@@ -1,29 +1,4 @@
-#include <iostream>
-#include <fstream>
-#include <string>
-
-int main() {
-    std::string filePath = "/d:/oops clg/assignment/a2/seaech.txt"; // Replace with your file path
-    std::string searchWord = "example";
-
-    std::ifstream file(filePath);
-    if (!file) {
-        std::cout << "Error opening file." << std::endl;
-        return 1;
-    }
-
-    std::string word;
-    int frequency = 0;
-
-    while (file >> word) {
-        if (word == searchWord) {
-            frequency++;
-        }
-    }
-
-    std::cout << "Frequency of word '" << searchWord << "' in the file: " << frequency << std::endl;
-
-    file.close();
-
-    return 0;
-}
+This is an example sentence with the word 'example' in it.
+Another example to demonstrate the usage of the word 'example'.
+The example text may contain multiple occurrences of the word.
+End of the file with an example.

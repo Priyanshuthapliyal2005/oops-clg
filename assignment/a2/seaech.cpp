@@ -4,8 +4,8 @@
 using namespace std;
 
 int main() {
-    string filePath = " D:/oops clg/assignment/a2/search.txt";
-    string searchWord = "main";
+    string filePath = "D:/oops clg/assignment/a2/search.txt"; // Removed space before D:
+    string searchWord = "is";
 
     ifstream file(filePath);
     if (!file) {
