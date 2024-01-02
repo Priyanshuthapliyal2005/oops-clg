@@ -52,5 +52,9 @@ int main() {
     // Display the values of x and y for d3
     d3.show();
 
+    xyz d4(d3);
+
+    d4.show();
+
     return 0;
 }

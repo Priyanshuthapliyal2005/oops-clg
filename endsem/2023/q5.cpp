@@ -37,6 +37,9 @@ int main()
     Employee* e = new child("balawala","cs and it","prince",1,72480);
     e->getDetails();
 
+    Employee *y=new child();
+    y->getDetails();
+
     delete e;
     return 0;
 }
